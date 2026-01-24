@@ -87,7 +87,7 @@ class ListScreen extends StatelessWidget {
       ),
 
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0, // Home يبدا من
+        currentIndex: 0, 
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.bookmark), label: 'Saved'),
